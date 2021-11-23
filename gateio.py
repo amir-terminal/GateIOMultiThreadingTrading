@@ -9,8 +9,8 @@ import hmac
 # from concurrent.futures import ThreadPoolExecutor
 
 def gen_sign(method, url, query_string=None, payload_string=None):
-    key = '6a44db421dd2e49e85174eb528010cd0'        # api_key
-    secret = 'dbb4354841ec6c77d2cc5b1076df1f8574346210499966d34c32b89298fed829'     # api_secret
+    key = ''        # api_key
+    secret = ''     # api_secret
 
     t = time.time()
     m = hashlib.sha512()
